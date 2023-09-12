@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
       
       - name: Run a one-line script
-        run: ./scriptProAction.sh
+        run: ./reverseStrTest.py
