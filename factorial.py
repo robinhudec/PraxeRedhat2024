@@ -1,9 +1,8 @@
 def fact(value):
     n = 1
-    result = 0
+    result = 1
     for i in range (value):
-        result = (i+1) * n
+        result = result * n
         n +=1
     return(result)
 
-print(fact(5))
